@@ -7,6 +7,9 @@ using namespace std;
 int
 main ()
 {
+  int t;
+  int u;
+  int v;
   int w;
   int x;
   int y;
