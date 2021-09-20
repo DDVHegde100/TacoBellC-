@@ -7,10 +7,10 @@ using namespace std;
 int
 main ()
 {
-  
+  int w;
   int x;
   int y;
- 
+  int z;
 int cts;
 int ct;  
 int sts;  
