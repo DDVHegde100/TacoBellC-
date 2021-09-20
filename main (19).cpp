@@ -52,9 +52,9 @@ return 0;
 
 }else if(x == 4){
 
-cout << "Please enter the amount of Chalupaa Supremes:):";
+cout << "Please enter the amount of Chalupa Supremes:):";
 cin >> y;
-dlts = (2.39*y)*1.06;
+dlts = (3.39*y)*1.06;
  
 cout << "Your total will be " << ct;
 cout << "  Thank You for visiting CPP Taco Bell." ;
