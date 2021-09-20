@@ -14,7 +14,7 @@ main ()
 int cts;
 int ct;  
 int sts;  
-int dlt;  
+int dlts;  
 int lnt;  
 int cgc;   
 cout << "Welcome to CPP Taco Bell!";
@@ -44,7 +44,7 @@ return 0;
 
 cout << "Please enter the amount of Doritos Locos Tacos Supreme:):";
 cin >> y;
-dlt = (2.39*y)*1.06;
+dlts = (2.39*y)*1.06;
  
 cout << "Your total will be " << ct;
 cout << "  Thank You for visiting CPP Taco Bell." ;
