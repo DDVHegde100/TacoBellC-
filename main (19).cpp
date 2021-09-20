@@ -24,18 +24,18 @@ int lnt;
 int cgc;
   
  
-cout << "Welcome to CPP Dominoes!";
-    cout <<"Enter 1 for Chicken Taco Pizza, 2 for MeatZZa, 3 for ExtracaganZZa, 4 for Philly Cheese Steak";
+cout << "Welcome to CPP Taco Bell!";
+    cout <<"Enter 1 for Crunchy Taco Supreme, 2 for Soft Taco Supreme, 3 for Doritos Locos Tacos, 4 for Chalupa Supreme";
 cin >> x;
   
  
 if (x == 1)
     {
 
-cout << "Please enter the amount of pizzas:";
+cout << "Please enter the amount tacos:";
 cin >> y;
 
-cts = 11.99*y;
+cts = (1.89*y)*1.06;
       
 cout << "Your total will be " << cts;
 cout << "  Thank You for visiting CPP Dominoes." ;
