@@ -21,7 +21,7 @@ int dlts;
 int lnt;  
 int cgc;   
 cout << "Welcome to CPP Taco Bell!";
-    cout <<"Enter 1 for Crunchy Taco Supreme, 2 for Soft Taco Supreme, 3 for Doritos Locos Tacos Supreme, 4 for Chalupa Supreme";
+    cout <<"Enter 1 for Crunchy Taco Supreme, 2 for Soft Taco Supreme, 3 for Doritos Locos Tacos Supreme, 4 for Chalupa Supreme, 5 for Crispy Chicken Taco";
 cin >> x;
    
 if (x == 1){
@@ -58,6 +58,16 @@ return 0;
 cout << "Please enter the amount of Chalupa Supremes:):";
 cin >> y;
 dlts = (3.39*y)*1.06;
+ 
+cout << "Your total will be " << ct;
+cout << "  Thank You for visiting CPP Taco Bell." ;
+return 0;
+
+}else if(x == 4){
+
+cout << "Please enter the amount of Crispy Chicken Tacos:):";
+cin >> y;
+dlts = (1.49*y)*1.06;
  
 cout << "Your total will be " << ct;
 cout << "  Thank You for visiting CPP Taco Bell." ;
